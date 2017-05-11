@@ -1,0 +1,19 @@
+class RepoInfo < Formula
+  desc "Show Tarball URL and SHA-256 checksum for a GithUb repo, copying checksum to clipboard."
+  homepage "https://github.com/tomkyle/repo-info"
+  url "https://github.com/tomkyle/repo-info/archive/1.0.0.tar.gz"
+  sha256 "dccc672d0f791528d031b8bf5a4f43becc08b0bb33952601baa0c209cd2920ba"
+
+  bottle :unneeded
+
+  def install
+    bin.install "repo-info"
+  end
+
+  test do
+    # Check if "Usage: repo-info" is part of output
+    # when called without parameters.
+    # Expected exit code is then 1.
+    assert_match "Usage: repo\-info", shell_output("#{bin}/erpo-info", 1)
+  end
+end
