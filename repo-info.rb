@@ -1,5 +1,5 @@
 class RepoInfo < Formula
-  desc "Show Tarball URL and SHA-256 checksum for a GithUb repo, copying checksum to clipboard."
+  desc "Show Tarball URL and copy SHA-256 to clipboard for GithUb repo."
   homepage "https://github.com/tomkyle/repo-info"
   url "https://github.com/tomkyle/repo-info/archive/1.0.0.tar.gz"
   sha256 "dccc672d0f791528d031b8bf5a4f43becc08b0bb33952601baa0c209cd2920ba"
@@ -17,3 +17,4 @@ class RepoInfo < Formula
     assert_match "Usage: repo\-info", shell_output("#{bin}/erpo-info", 1)
   end
 end
+
