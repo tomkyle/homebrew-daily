@@ -17,4 +17,3 @@ class RepoInfo < Formula
     assert_match "Usage: repo\-info", shell_output("#{bin}/erpo-info", 1)
   end
 end
-
