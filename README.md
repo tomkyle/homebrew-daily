@@ -26,7 +26,7 @@ To install all programs, open your terminal and type:
 
 
 ```bash
-$ brew install repo-info
+$ brew install repo-info show-crop
 ```
 
 
@@ -42,5 +42,18 @@ $ brew install repo-info
 
 # ...or without having tap installed:
 $ brew install tomkyle/daily/repo-info
+```
+
+
+## show-crop 
+
+Display CRS Crop information stored in XMP Meta tags (Bash) [Documentation](https://github.com/tomkyle/show-crop)
+
+```bash
+# with tap installed:
+$ brew install show-crop
+
+# ...or without having tap installed:
+$ brew install tomkyle/daily/show-crop
 ```
 
