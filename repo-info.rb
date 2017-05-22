@@ -14,6 +14,6 @@ class RepoInfo < Formula
     # Check if "Usage: repo-info" is part of output
     # when called without parameters.
     # Expected exit code is then 1.
-    assert_match "Usage: repo\-info", shell_output("#{bin}/erpo-info", 1)
+    assert_match "Usage: repo\-info", shell_output("#{bin}/repo-info", 1)
   end
 end
