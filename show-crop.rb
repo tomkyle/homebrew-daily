@@ -1,8 +1,8 @@
 class ShowCrop < Formula
-  desc "Displays CRS Crop information stored in XMP Meta tags."
+  desc "Displays CRS Crop information stored in image meta data."
   homepage "https://github.com/tomkyle/show-crop"
-  url "https://github.com/tomkyle/show-crop/archive/1.0.0.tar.gz"
-  sha256 "8bf121f6703f9e82d91980164d754e86f36484838b79f8caaa7e569248b0798d"
+  url "https://github.com/tomkyle/show-crop/archive/1.1.0.tar.gz"
+  sha256 "45ade4d95ca7eaf41febb4432505da6dae27b7677b3cb9a92a6121c07b2cec15"
 
   bottle :unneeded
 
