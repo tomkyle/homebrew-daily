@@ -22,15 +22,28 @@ $ brew tap tomkyle/daily
 
 ## Installation
 
-To install all programs, open your terminal and type:
+To install *all* programs, open your terminal and type:
 
 
 ```bash
-$ brew install repo-info show-crop
+$ brew install repo-info show-crop cps
 ```
 
 
 # Formulae
+
+## cps
+
+Creates a file copy with given suffix. [Documentation](https://github.com/tomkyle/cps)
+
+```bash
+# with tap installed:
+$ brew install cps
+
+# ...or without having tap installed:
+$ brew install tomkyle/daily/cps
+```
+
 
 ## repo-info 
 
