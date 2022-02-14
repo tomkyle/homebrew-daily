@@ -4,8 +4,6 @@ class ShowCrop < Formula
   url "https://github.com/tomkyle/show-crop/archive/1.1.0.tar.gz"
   sha256 "45ade4d95ca7eaf41febb4432505da6dae27b7677b3cb9a92a6121c07b2cec15"
 
-  bottle :unneeded
-
   depends_on "exiftool"
 
   def install
